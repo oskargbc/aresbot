@@ -1,6 +1,5 @@
-cmd/main/tasks
+cmd/main/tasks/*
 cmd/main/logs.txt
-cmd/main/main
 cmd/main/profile.json
 cmd/main/proxys.txt
 cmd/main/settings.json
