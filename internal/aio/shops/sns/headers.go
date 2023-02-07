@@ -1,0 +1,86 @@
+package sns
+
+var CheckProductHeaders = map[string]string{
+	"authority":                 "www.sneakersnstuff.com",
+	"cache-control":             "max-age=0",
+	"sec-ch-ua":                 "Not;A Brand;v=99, Google Chrome;v=97, Chromium;v=97",
+	"sec-ch-ua-mobile":          "?0",
+	"sec-ch-ua-platform":        "Windows",
+	"upgrade-insecure-requests": "1",
+	"user-agent":                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+	"accept":                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"sec-fetch-site":            "cross-site",
+	"sec-fetch-mode":            "navigate",
+	"sec-fetch-user":            "?1",
+	"sec-fetch-dest":            "document",
+	"accept-language":           "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+var AddToCartHeaders = map[string]string{
+	"authority":          "www.sneakersnstuff.com",
+	"sec-ch-ua":          "Not;A Brand;v=99, Google Chrome;v=97, Chromium;v=97",
+	"content-type":       "application/x-www-form-urlencoded;charset=UTF-8",
+	"x-requested-with":   "XMLHttpRequest",
+	"sec-ch-ua-mobile":   "?0",
+	"user-agent":         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+	"sec-ch-ua-platform": "Windows",
+	"accept":             "*/*",
+	"origin":             "https://www.sneakersnstuff.com",
+	"sec-fetch-site":     "same-origin",
+	"sec-fetch-mode":     "cors",
+	"sec-fetch-dest":     "empty",
+	"accept-language":    "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+var LoginHeaders = map[string]string{
+	"authority":          "www.sneakersnstuff.com",
+	"sec-ch-ua":          "Not;A Brand;v=99, Google Chrome;v=97,Chromium;v=97",
+	"sec-ch-ua-mobile":   "?0",
+	"user-agent":         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+	"content-type":       "application/x-www-form-urlencoded; charset=UTF-8",
+	"accept":             "*/*",
+	"x-requested-with":   "XMLHttpRequest",
+	"sec-ch-ua-platform": "Windows",
+	"origin":             "https://www.sneakersnstuff.com",
+	"sec-fetch-site":     "same-origin",
+	"sec-fetch-mode":     "cors",
+	"sec-fetch-dest":     "empty",
+	"accept-language":    "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+	"referer":            "https://www.sneakersnstuff.com/de/cart/view",
+}
+
+var SetPaymentHeaders = map[string]string{
+	"authority":          "www.sneakersnstuff.com",
+	"sec-ch-ua":          "Not;A Brand;v=99, Google Chrome;v=97, Chromium;v=97",
+	"sec-ch-ua-mobile":   "?0",
+	"user-agent":         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+	"content-type":       "application/x-www-form-urlencoded; charset=UTF-8",
+	"accept":             "text/html, */*; q=0.01",
+	"x-requested-with":   "XMLHttpRequest",
+	"sec-ch-ua-platform": "Windows",
+	"origin":             "https://www.sneakersnstuff.com",
+	"sec-fetch-site":     "same-origin",
+	"sec-fetch-mode":     "cors",
+	"sec-fetch-dest":     "empty",
+	"referer":            "https://www.sneakersnstuff.com/de/cart/view",
+	"accept-language":    "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+var CheckoutHeaders = map[string]string{
+	"authority":                 "www.sneakersnstuff.com",
+	"cache-control":             "max-age=0",
+	"sec-ch-ua":                 "Not;A Brand;v=99, Google Chrome;v=97, Chromium;v=97",
+	"sec-ch-ua-mobile":          "?0",
+	"sec-ch-ua-platform":        "Windows",
+	"upgrade-insecure-requests": "1",
+	"origin":                    "https://www.sneakersnstuff.com",
+	"content-type":              "application/x-www-form-urlencoded",
+	"user-agent":                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+	"accept":                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"sec-fetch-site":            "same-origin",
+	"sec-fetch-mode":            "navigate",
+	"sec-fetch-user":            "?1",
+	"sec-fetch-dest":            "document",
+	"referer":                   "https://www.sneakersnstuff.com/de/cart/view",
+	"accept-language":           "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
+}

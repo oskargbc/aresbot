@@ -1,0 +1,16 @@
+{
+  "monitorDelay": 1000,
+  "retryCount": 5,
+  "webhookUrl": "",
+  "license": "",
+  "proxyHttps": false,
+  "captchaProvider": "",
+  "captchaKey": "",
+  "quicktaskProfile": "",
+  "quicktaskAmount": 2,
+  "quicktaskWithProxy": false,
+  "discordToken": "",
+  "discordChannelIDs": [""],
+  "discordServerIds": [""],
+  "discordKeywords": [""]
+}
